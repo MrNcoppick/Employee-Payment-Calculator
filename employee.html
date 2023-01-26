@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="message">
+      <h4>This will calculate employee pay and output useful info.</h4>
+      <p>
+        This will ask for the employee's names, hourly rate, tax rate, hours
+        worked, sales made, and commission rate. It will ouput each employee's
+        information, and the totals of each category.
+      </p>
+
+      <div class="main" id="main">
+        <div class="start" id="start" onclick="startclick()">Start?</div>
+        <div class="mainprob" id="mainprob">
+          <p id="mainoutput"></p>
+          <div class="child1" id="name">
+            Employee's Name: <input type="text" id="empname" />
+            <h6 class="error" id="nameerror"></h6>
+          </div>
+          <div class="child1" id="hour_rate">
+            Hourly Rate: <input type="number" id="hourly_rate" />
+            <h6 class="error" id="hourly_rate_error"></h6>
+          </div>
+          <div class="child1" id="tax">
+            Tax Rate: <input type="number" id="taxrate" />
+            <h6 class="error" id="taxerror"></h6>
+          </div>
+
+          <div class="child1" id="hours">
+            Hours Worked: <input type="number" id="workedhours" />
+            <h6 class="error" id="hourserror"></h6>
+          </div>
+
+          <div class="child1" id="sales">
+            Sales Made: <input type="number" id="salesmade" />
+            <h6 class="error" id="saleserror"></h6>
+          </div>
+
+          <div class="child1" id="commission">
+            Commission Rate: <input type="number" id="commissionrate" />
+            <h6 class="error" id="comerror"></h6>
+          </div>
+          <div class="child1" id="button">
+            <button class="button" id="subbutton">Submit</button>
+          </div>
+          <div class="child1" id="output">
+            <h6 class="confirmation" id="confirmation"></h6>
+            <button id="donebutton">Done</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

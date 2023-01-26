@@ -1,0 +1,72 @@
+body
+{
+    font-family: 'Leelawadee UI';
+
+}
+
+.message
+{
+    position:absolute;
+    background-color: rgba(81, 146, 72, 0.76);
+    max-width: 500px;
+    border: 3px solid black;
+    height: fit-content;
+    text-align: center;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
+.main
+{
+    display:flex;
+    height: 500px;
+    width:500px;
+    border-top: 3px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.start
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 25%;
+    background-color: rgba(255, 205, 149, 0.781);
+    border: 2px solid black;
+    border-radius: 30%;
+    font-size:xx-large;
+}
+.start:hover
+{
+    cursor: pointer;
+    background-color: rgba(248, 169, 78, 0.781);
+}
+.mainprob
+{
+    height: 100%;
+    width: 100%;
+    display:none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.child1
+{
+    height: 40px;
+    min-width: fit-content;
+    background-color: rgb(255, 205, 149);
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    display:none;
+    padding:0px 5px;
+    margin: 10px 0px;
+}
+.error
+{
+    color:red;
+}
+.confirmation
+{
+    color:green;
+}
